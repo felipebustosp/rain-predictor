@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2018 10:52:56 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.felipe.rain.predictor.connector.RegisterDB" table="REGISTER">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="altitude" type="java.lang.String">
+            <column name="ALTITUDE" />
+        </property>
+        <property name="year" type="java.lang.String">
+            <column name="YEAR" />
+        </property>
+        <property name="month" type="java.lang.String">
+            <column name="MONTH" />
+        </property>
+        <property name="day" type="java.lang.String">
+            <column name="DAY" />
+        </property>
+        <property name="water" type="java.lang.String">
+            <column name="WATER" />
+        </property>
+    </class>
+</hibernate-mapping>

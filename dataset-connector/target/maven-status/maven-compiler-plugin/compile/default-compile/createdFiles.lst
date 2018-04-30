@@ -1,0 +1,2 @@
+org/felipe/rain/predictor/connector/RegisterDB.class
+org/felipe/rain/predictor/connector/persistence/HibernateUtil.class
